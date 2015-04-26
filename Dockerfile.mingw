@@ -52,7 +52,7 @@ RUN cd expat-2.1.0 && \
     --build=`dpkg-architecture -qDEB_BUILD_GNU_TYPE` && \
     make install
 
-RUN tar xf sqlite-autoconf-3080700.tar.gz
+RUN tar xf sqlite-autoconf-3080803.tar.gz
 RUN cd sqlite-autoconf-3080700 && \
     ./configure \
     --disable-shared \
